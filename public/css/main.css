@@ -1,0 +1,100 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    background-color: #d9d6d5; 
+} */
+
+.page-top{
+    background-color:#fed6d3;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid  #a1684a;
+    top: 0;
+}
+
+header {
+    width: 100%;
+    background-color:#fed6d3;
+    z-index: 1;     
+    text-align: center;
+  }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h4 {
+    font-weight: lighter;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+nav {
+    margin-top: 2%;
+    background-color: #fed6d3;
+    text-align: center;  
+    line-height: 4em;
+}
+
+nav a {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.main {
+    padding-top: 170px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 2% 10%;
+    /* border: 1px solid red; */
+}
+
+.tile {
+    margin: 2% 14% 5%;
+    padding: 1.5%;
+    border: 1px solid #a1684a;
+    border-radius: 15px;
+    box-shadow: 2px 5px 9px #a1684a;
+}
+
+.new-tile {
+    margin: 2% 14% 5%;
+    padding: 2.5%;
+    border: 1px solid #a1684a;
+    border-radius: 15px;
+    box-shadow: 2px 5px 9px #a1684a;
+}
+
+img {
+    object-fit: scale-down;
+}
+
+h3 {
+    padding: 1%;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox {
+    height: 30px;
+    width: 30px;
+    margin-left: -8px;
+    margin-top: -2px;
+}
+
+footer {
+    background-color: #fed6d3;
+    text-align: center;
+    bottom: 0;
+    border-top: 1px solid #a1684a;
+    height: 7%;
+    font-size: 0.5em;
+}
