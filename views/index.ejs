@@ -9,7 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css" />
-    <title>All ToDo</title>
+    <title>All ToDos</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
         <div class="tile">
             <h3><a href="/todos/<%=todos[i].id %>"><%=todos[i].title%></a></h3>
             <p><%=todos[i].body%></p>
-            <img src="<%= todos[i].img %>" class="img-thumbnail rounded mx-auto d-block" /> <br />
+            <img src="<%= todos[i].img %>" class="img-thumbnail mx-auto d-block" /> <br />
             <% if (todos[i].completed === true) { %>
             <p>DONE! </p>
             <% } else {%>

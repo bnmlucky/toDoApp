@@ -70,6 +70,7 @@ nav a {
 
 img {
     object-fit: scale-down;
+    border-radius: 15px;
 }
 
 h3 {
